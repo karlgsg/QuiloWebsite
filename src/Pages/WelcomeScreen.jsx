@@ -95,8 +95,6 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
       {isLoading && (
         <motion.div
           className="fixed inset-0 bg-[#030014]"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
           exit="exit"
           variants={containerVariants}
         >

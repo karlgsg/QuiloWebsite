@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import AstronautScene from "../components/Astronaut";
 
 const BACKGROUND_COLOR = "#030014";
-const typingTexts = ["Develop", "Connect", "Grow"];
+const typingTexts = ["Develop", "Automate", "Predict", "Optimize"];
 
 const TypingEffect = memo(() => {
   const [index, setIndex] = useState(0);
@@ -45,14 +45,14 @@ const Title = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#fdb827] to-[#565669] blur-2xl opacity-50"></span>
         <span className="relative bg-gradient-to-r from-white to-white bg-clip-text text-transparent">
-          Making your
+          Bringing AI
         </span>
       </span>
       <br />
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#fdb827] to-[#565669] blur-2xl opacity-50"></span>
         <span className="relative bg-gradient-to-r from-[#fdb827] to-[#565669] bg-clip-text text-transparent">
-          ideas a reality
+          to your apps
         </span>
       </span>
     </h1>
@@ -90,8 +90,7 @@ const Home = () => {
             <div className="w-full lg:w-1/2 space-y-6" data-aos="fade-right">
               <Title />
               <p className="text-white leading-relaxed">
-                Bridging the gap between business and consumers with digital applications.
-              </p>
+  Empowering businesses with AI-driven apps that predict trends, automate tasks, and optimize user experiences.</p>
               <div className="flex flex-wrap gap-4 mt-6">
                 <Button href="#Portfolio" text="Projects" icon={ExternalLink} />
                 <Button href="#Contact" text="Contact" icon={Mail} />

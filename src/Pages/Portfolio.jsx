@@ -51,13 +51,13 @@ const projects = [
     id: "always-sunny-app",
     Img: "AlwaysSunny.png",
     Title: "Always Sunny App",
-    Description: "A Flutter app that helps users plan trips by calculating a “Sunny Score” for their destination based on a weather API.",
+    Description: "An app that helps users plan trips by calculating a “Sunny Score” for their destination based on a weather API.",
   },
   {
-    id: "engaged-app",
-    Img: "UnderConstruction.png",
-    Title: "Engaged",
-    Description: "A dating app designed for genuine relationships by encouraging users to focus on one conversation at a time.",
+    id: "predictable-stocks-app",
+    Img: "PredictableStocks.png",
+    Title: "Predictable Stocks",
+    Description: "A modern mobile app that makes tracking, analyzing, and predicting stock movements simple and intuitive.",
   },
 ];
 

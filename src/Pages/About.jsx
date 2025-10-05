@@ -42,14 +42,14 @@ const AboutPage = () => {
           data-aos="fade-right"
           data-aos-duration="1200"
         >
-          We are three software engineers from Western University, two of whom hold dual degrees in Artificial Intelligence Engineering. Together, we have a talent for bringing ideas to life.
+          We are three software engineers from Western University, two of whom hold dual degrees in Artificial Intelligence Engineering. We specialize in building AI-powered apps that leverage predictive intelligence and advanced analytics.
         </p>
         <p
           className="text-lg lg:text-xl text-[#d3d3d3] leading-relaxed"
           data-aos="fade-right"
           data-aos-duration="1400"
         >
-          Whether it’s an app to create recipes or a machine learning solution to organize your products, we have the unique skills to make your vision a reality.
+          From predictive stock apps to intelligent automation solutions, we combine AI expertise with software engineering to turn complex problems into intuitive applications.
         </p>
       </div>
     </div>
