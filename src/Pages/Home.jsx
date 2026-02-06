@@ -45,14 +45,14 @@ const Title = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#fdb827] to-[#565669] blur-2xl opacity-50"></span>
         <span className="relative bg-gradient-to-r from-white to-white bg-clip-text text-transparent">
-          Bringing AI
+          Quilo builds
         </span>
       </span>
       <br />
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#fdb827] to-[#565669] blur-2xl opacity-50"></span>
         <span className="relative bg-gradient-to-r from-[#fdb827] to-[#565669] bg-clip-text text-transparent">
-          to your apps
+          AI-powered apps for businesses
         </span>
       </span>
     </h1>
@@ -90,7 +90,7 @@ const Home = () => {
             <div className="w-full lg:w-1/2 space-y-6" data-aos="fade-right">
               <Title />
               <p className="text-white leading-relaxed">
-  Empowering businesses with AI-driven apps that predict trends, automate tasks, and optimize user experiences.</p>
+  Quilo designs and ships AI-driven applications that predict trends, automate workflows, and optimize user experiences for growing teams.</p>
               <div className="flex flex-wrap gap-4 mt-6">
                 <Button href="#Portfolio" text="Projects" icon={ExternalLink} />
                 <Button href="#Contact" text="Contact" icon={Mail} />

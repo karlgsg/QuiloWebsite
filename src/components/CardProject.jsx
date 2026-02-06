@@ -7,10 +7,11 @@ const CardProject = ({ Img, Title, Description }) => {
         <div className="absolute inset-0 bg-gradient-to-br from-[#fdb827]/10 via-[#565669]/10 to-[#030014]/10 opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
 
         <div className="relative p-5 z-10">
-          <div className="relative overflow-hidden rounded-lg">
+        <div className="relative overflow-hidden rounded-lg">
           <img
   src={Img}
   alt={Title}
+  loading="lazy"
   className="w-full h-[200px] object-contain rounded-lg transform group-hover:scale-105 transition-transform duration-500"
 />
           </div>
