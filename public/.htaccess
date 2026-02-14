@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Force one canonical host: HTTPS + non-www
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.quiloapps\.ca$ [NC]
+RewriteRule ^ https://quiloapps.ca%{REQUEST_URI} [R=301,L]
+
+# Canonicalize /index.html to /
+RewriteRule ^index\.html$ https://quiloapps.ca/ [R=301,L]
